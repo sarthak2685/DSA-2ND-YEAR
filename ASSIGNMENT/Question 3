@@ -1,0 +1,22 @@
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int n;
+    char ch;
+    long l;
+    double d;
+    float f;
+    cin>>n>>l>>ch>>f>>d;
+    cout<<n<<'\n';
+    cout<<l<<'\n';
+    cout<<ch<<'\n';
+    cout<<setprecision(7)<<f<<'\n';
+    cout<<setprecision(14)<<d<<'\n';
+    
+    
+    // Complete the code.
+    return 0;
+}
