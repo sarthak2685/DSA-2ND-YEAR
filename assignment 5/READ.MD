@@ -1,0 +1,9 @@
+https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem?isFullScreen=true
