@@ -1,0 +1,61 @@
+#include <iostream>
+using namespace std;
+
+//you can also use class
+struct Node{
+	int data;
+	Node *next;
+};
+
+/**
+ * newNode function will return a node with data as val
+ * */
+Node *newNode(int val){
+	Node *temp = new Node;
+	temp->data = val;
+	return temp;
+}
+
+/**
+ * createLinkedList will read the `n` inputs from user and will create a linked list of size `n`
+ * */
+ Node *createLinkedList(int n){
+ 	Node*head=NULL;
+ 	Node*temp=NULL;
+ 	for(int i=0;i<n;i++){
+ 		int val;
+ 		cin>>val;
+ 		Node*p=newNode(val);
+ 		if(head==NULL){
+ 			head=p;
+ 			temp=p;
+ 		}
+ 		else{
+ 			temp->next=p;
+ 			temp=p;
+ 		}
+ 	}
+ 	return head;
+ }
+ 
+ /**
+  * printLinkedList will print all the elemets of linked list
+  * */
+void printLinkedList(Node *head){
+	while(head!=NULL){
+		cout<<head->data<<" ";
+		head=head->next;
+	}
+	
+}
+
+int main() {
+	// your code goes here
+	int n;
+	cin>>n;
+	Node* head =createLinkedList(5);
+	cout<<"printing List";
+	
+	printLinkedList(head);
+	return 0;
+}
