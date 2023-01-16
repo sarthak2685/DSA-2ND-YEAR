@@ -1,0 +1,15 @@
+int Solution::solve(string A) {
+    unordered_map<char, int> mp; // create a hashmap to keep track of character frequencies
+    for (char c : A) {
+        mp[c]++; // increment frequency of each character
+    }
+    int odd_count = 0; // counter for characters with odd frequencies
+    for (auto it : mp) {
+        if (it.second % 2 != 0) { // check if frequency is odd
+            odd_count++;
+        }
+    }
+    return (odd_count > 1) ? 0 : 1; // return 0 if more than 1 characters have odd frequencies, else return 1
+
+
+}
